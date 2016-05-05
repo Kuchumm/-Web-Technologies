@@ -1,0 +1,179 @@
+html, 
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+
+body {
+	font: 0.92em/1.4 Arial, sans-serif;
+}
+
+
+#body-wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+
+#page {
+	overflow: hidden;
+	padding-bottom: 110px;
+}
+
+
+#content {
+	padding-right: 300px;
+}
+
+
+header, footer {
+	width: 100%;
+}
+
+
+
+/*шапка*/ header {
+	/*height: 50px;*/
+	background: #000000;
+	border-bottom: 4px solid #fb0101;
+	margin: 0;
+	padding: 20px 0 0 0;
+}
+
+
+
+aside {
+	float: right;
+	width: 300px;
+	height: 100%;
+	margin-top: 50px;
+
+	padding-left: 10px;
+}
+
+
+
+/*снизу*/footer {
+	/*vertical-align: bottom;*/
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-top: 1px solid #cccccc;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	margin-top: 30px;
+	background-color: #e1e1e1;
+	height: 80px;
+}
+
+
+
+nav {
+	display: inline-block;
+	/*padding: 0;
+	margin: 0;*/
+}
+
+
+/*Главная*/.logo {
+	vertical-align: baseline;
+	display: inline-block;
+	/*float: left;*/
+	margin: -10px 0 0 -70px;
+	padding: 0;
+	font-size: 3em;
+	line-height: 1em;
+	color: #d6d6d6;
+}
+
+
+
+article {
+	margin-top: 30px;
+}
+
+
+.article-title {
+	font-family: "Segoe UI";
+	font-size: 3em;
+	line-height: 1.01em;
+	margin: 0 0 10px 0;
+}
+
+
+
+.article-text {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding-right: 20px;
+	font-size: 1em;
+	line-height: 1.4;
+	/*text-indent: 1cm;*/
+}
+
+
+
+ul.inline {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+ul.inline > li {
+	display: inline;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+
+/*Адреса телефоны*/
+header nav a {
+	font-size: 17px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #d6d6d6;
+}
+
+
+
+
+
+.pull-right {
+	float: right !important;
+}
+
+.center {
+	margin:auto;
+}
+
+
+.middle {
+	vertical-align: middle;
+}
+
+
+.col {
+	float: left;
+}
+
+@media (min-width:768px){
+	.container{
+		width: 750px
+	}
+}
+
+@media (min-width:992px){
+	.container{
+		width: 970px
+	}
+}
+
+
+@media (min-width:1200px){
+	.container{
+		width: 1100px
+	}
+}
